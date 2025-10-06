@@ -1,0 +1,254 @@
+- name: Initialize metrics collection on all hosts
+  hosts: all
+  become: true
+  vars:
+    metrics_services:
+      - { name: cpu, script: cpu_metrics.sh }
+      - { name: mem, script: mem_metrics.sh }
+      - { name: io, script: io_metrics.sh }
+      - { name: disk, script: disk_metrics.sh }
+      - { name: tcp, script: tcp_metrics.sh }
+  tasks:
+    - name: Create metrics directory
+      file:
+        path: /home/ubuntu/metrics
+        state: directory
+        owner: root
+        group: root
+        mode: '0755'
+
+    - name: Copy metricscollection scripts to remote
+      copy:
+        src: ../../utils/metricscollection/
+        dest: /usr/local/bin/
+        mode: '0755'
+
+    - name: Deploy systemd services for metrics
+      copy:
+        dest: "/etc/systemd/system/vm_metrics_collector_{{ item.name }}.service"
+        content: |
+          [Unit]
+          Description=VM Metrics Collector {{ item.name | upper }}
+          After=network.target
+
+          [Service]
+          Type=simple
+          ExecStart=/usr/local/bin/{{ item.script }}
+          Restart=on-failure
+          User=root
+
+          [Install]
+          WantedBy=multi-user.target
+        mode: '0644'
+      loop: "{{ metrics_services }}"
+
+    - name: Reload systemd
+      command: systemctl daemon-reload
+
+    - name: Enable and start metrics collectors
+      systemd:
+        name: "vm_metrics_collector_{{ item.name }}"
+        enabled: yes
+        state: started
+      loop: "{{ metrics_services }}"
+
+- name: Initialize Manager
+  hosts: manager
+  become: true
+  tasks:
+    - name: Copy RasDaMan setup scripts
+      copy:
+        src: ../../manager/
+        dest: /home/ubuntu/
+        mode: '0755'
+
+    - name: Run initialization script
+      shell: /home/ubuntu/init.sh
+
+- name: Initialize RasDaMan Client
+  hosts: rasdaman_client
+  become: true
+  tasks:
+    - name: Install Go
+      apt:
+        name: golang-go
+        state: present
+        update_cache: yes
+
+    - name: Copy RasDaMan client code
+      copy:
+        src: ../../rasdaman/client/
+        dest: /home/ubuntu/
+        owner: ubuntu
+        group: ubuntu
+        mode: '0755'
+
+    - name: Create results directory
+      file:
+        path: /home/ubuntu/results
+        state: directory
+        owner: ubuntu
+        group: ubuntu
+        mode: '0755'
+
+    - name: Initialize Go module and download dependencies and build application
+      shell: |
+        go mod tidy
+        go mod download
+        go build -o rasdaman-client .
+      become_user: ubuntu
+
+    - name: Create systemd service for RasDaMan client
+      copy:
+        dest: /etc/systemd/system/rasdaman-client.service
+        content: |
+          [Unit]
+          Description=RasDaMan Benchmark Client
+          After=network.target
+
+          [Service]
+          Type=simple
+          User=ubuntu
+          WorkingDirectory=/home/ubuntu/
+          ExecStart=/home/ubuntu/rasdaman-client
+          Restart=on-failure
+          RestartSec=5
+
+          [Install]
+          WantedBy=multi-user.target
+        mode: '0644'
+
+    - name: Reload systemd and start RasDaMan client
+      systemd:
+        name: rasdaman-client
+        daemon_reload: yes
+        enabled: yes
+        state: started
+
+- name: Initialize ODC Client
+  hosts: odc_client
+  become: true
+  tasks:
+    - name: Install Go
+      apt:
+        name: golang-go
+        state: present
+        update_cache: yes
+        
+    - name: Copy ODC client code
+      copy:
+        src: ../../opendatacube/client/
+        dest: /home/ubuntu/
+        owner: ubuntu
+        group: ubuntu
+        mode: '0755'
+
+    - name: Create results directory
+      file:
+        path: /home/ubuntu/results
+        state: directory
+        owner: ubuntu
+        group: ubuntu
+        mode: '0755'
+
+    - name: Initialize Go module and download dependencies and build application
+      shell: |
+        go mod tidy
+        go mod download
+        go build -o opendatacube-client .
+      become_user: ubuntu
+
+    - name: Create systemd service for ODC client
+      copy:
+        dest: /etc/systemd/system/opendatacube-client.service
+        content: |
+          [Unit]
+          Description=OpenDataCube Benchmark Client
+          After=network.target
+
+          [Service]
+          Type=simple
+          User=ubuntu
+          WorkingDirectory=/home/ubuntu/
+          ExecStart=/home/ubuntu/opendatacube-client
+          Restart=on-failure
+          RestartSec=5
+
+          [Install]
+          WantedBy=multi-user.target
+        mode: '0644'
+
+    - name: Reload systemd and start ODC client
+      systemd:
+        name: opendatacube-client
+        daemon_reload: yes
+        enabled: yes
+        state: started
+
+- name: Load SimRa data on Clients and Manager
+  hosts: rasdaman_client, odc_client, manager
+  become: true
+  tasks:
+    - name: Copy SimRa import script
+      copy:
+        src: ../../data/simra/import.sh
+        dest: /home/ubuntu/simra-import.sh
+        mode: '0755'
+
+    - name: Execute SimRa import
+      shell: /home/ubuntu/simra-import.sh
+      args:
+        executable: /bin/bash
+
+- name: Load DWD data on SUTs
+  hosts: rasdaman_sut, odc_sut
+  become: true
+  tasks:
+    - name: Copy DWD import script
+      copy:
+        src: ../../data/dwd/import.sh
+        dest: /home/ubuntu/dwd-import.sh
+        mode: '0755'
+
+    - name: Install pigz
+      apt:
+        name: pigz
+        state: present
+        update_cache: yes
+
+    - name: Execute DWD import
+      shell: /home/ubuntu/dwd-import.sh
+      args:
+        executable: /bin/bash
+
+- name: Initialize RasDaMan SUT
+  hosts: rasdaman_sut
+  become: true
+  tasks:
+    - name: Copy RasDaMan setup scripts
+      copy:
+        src: ../../rasdaman/sut/
+        dest: /home/ubuntu/
+        mode: '0755'
+
+    - name: Run initialization script
+      shell: /home/ubuntu/1_init_sys.sh
+    
+    - name: Run import script
+      shell: /home/ubuntu/2_import_data.sh
+
+- name: Initialize ODC SUT
+  hosts: odc_sut
+  become: true
+  tasks:
+    - name: Copy ODC setup scripts
+      copy:
+        src: ../../opendatacube/sut/
+        dest: /home/ubuntu/
+        mode: '0755'
+
+    - name: Run initialization script
+      shell: /home/ubuntu/1_init_sys.sh
+    
+    - name: Run import script
+      shell: /home/ubuntu/2_import_data.sh
