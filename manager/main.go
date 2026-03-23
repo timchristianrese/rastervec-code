@@ -135,6 +135,8 @@ func main() {
 
 	// Iterate executions
 	for runID, block := range benchCfg {
+		// set seed here for the entire run based on the runID to ensure repeatability across runs
+		//runSeed := int64(len(runID)) * 1000 // simple seed based on runID length, can be improved
 		fmt.Printf("=== Run: %s ===\n", runID)
 		for id, host := range hosts {
 			fmt.Printf("-> Host: %s\n", id)
@@ -147,6 +149,8 @@ func main() {
 
 				var queryEntries []QueryEntry
 				for queryIndex, q := range shuffled {
+					// change this to pseudo-random seeds instead so that experiments can be repeated with the same trajectory selections
+
 					uniqueSeed := time.Now().UnixNano() + int64(queryIndex*1000) + int64(rep*10000)
 					trajIDs := pickRandomWithSeed(trajectories, q.Trajectories, uniqueSeed)
 					queryEntries = append(queryEntries, QueryEntry{

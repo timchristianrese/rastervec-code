@@ -1,0 +1,43 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+3,10,200,1124,,"{""trajectory_result"":0.0,""latency_sec"":0.8035173416137695}"
+12,5,200,1181,,"{""trajectory_result"":0.0,""latency_sec"":1.151031494140625}"
+6,9,200,2637,,"{""trajectory_result"":0,""latency_sec"":2.616791009902954}"
+17,18,200,3184,,"{""trajectory_result"":[],""latency_sec"":3.1687395572662354}"
+10,1,200,3886,,"{""trajectory_result"":0.0,""latency_sec"":3.8565824031829834}"
+9,16,200,3892,,"{""trajectory_result"":[],""latency_sec"":3.8660054206848145}"
+7,8,200,4230,,"{""trajectory_result"":4.500000081956387,""latency_sec"":4.200028419494629}"
+13,7,200,5152,,"{""trajectory_result"":0,""latency_sec"":5.118077754974365}"
+4,11,200,5887,,"{""trajectory_result"":0.0,""latency_sec"":5.856683969497681}"
+1,0,200,6758,,"{""trajectory_result"":[],""latency_sec"":6.724969863891602}"
+19,19,200,7247,,"{""trajectory_result"":0.0,""latency_sec"":6.722907543182373}"
+2,4,200,7887,,"{""trajectory_result"":0.0,""latency_sec"":7.761014699935913}"
+15,15,200,8315,,"{""trajectory_result"":0,""latency_sec"":8.22560715675354}"
+16,13,200,9078,,"{""trajectory_result"":0.0,""latency_sec"":9.03884506225586}"
+8,6,200,9254,,"{""trajectory_result"":0,""latency_sec"":9.220747470855713}"
+0,3,200,9266,,"{""trajectory_result"":0.0,""latency_sec"":9.215202569961548}"
+11,2,200,12482,,"{""trajectory_result"":0.0,""latency_sec"":12.330800294876099}"
+14,14,200,17348,,"{""trajectory_result"":0.0,""latency_sec"":16.72455596923828}"
+5,12,200,36173,,"[{""trajectory_result"":0.0,""latency_sec"":10.015485525131226},{""trajectory_result"":0.0,""latency_sec"":15.840780258178711},{""trajectory_result"":0.0,""latency_sec"":10.228644371032715},{""trajectory_result"":0.0,""latency_sec"":15.838521480560303},{""trajectory_result"":0.0,""latency_sec"":17.71956157684326},{""trajectory_result"":0.0,""latency_sec"":19.78290057182312},{""trajectory_result"":0.0,""latency_sec"":19.73138928413391},{""trajectory_result"":0.0,""latency_sec"":17.740091562271118},{""trajectory_result"":0.0,""latency_sec"":21.329305410385132},{""trajectory_result"":0.0,""latency_sec"":20.77890682220459},{""trajectory_result"":0.0,""latency_sec"":19.856836080551147},{""trajectory_result"":0.0,""latency_sec"":22.144190311431885},{""trajectory_result"":0.0,""latency_sec"":23.15605354309082},{""trajectory_result"":0.0,""latency_sec"":22.1403865814209},{""trajectory_result"":0.0,""latency_sec"":28.172818899154663},{""trajectory_result"":0.0,""latency_sec"":26.23534321784973},{""trajectory_result"":0.0,""latency_sec"":26.23054265975952},{""trajectory_result"":0.0,""latency_sec"":24.906811237335205},{""trajectory_result"":0.0,""latency_sec"":36.04598259925842},{""trajectory_result"":0.0,""latency_sec"":28.403234720230103}]"
+12,21,200,38141,,"{""trajectory_result"":0.0,""latency_sec"":38.1324028968811}"
+9,25,200,54196,,"{""trajectory_result"":[],""latency_sec"":53.85932660102844}"
+6,22,200,60620,,"{""trajectory_result"":0.0,""latency_sec"":58.48546266555786}"
+7,26,200,59266,,"{""trajectory_result"":0.0,""latency_sec"":58.93897891044617}"
+17,23,200,62268,,"{""trajectory_result"":0.0,""latency_sec"":62.248514890670776}"
+3,20,200,67144,,"[{""trajectory_result"":0.0,""latency_sec"":45.16819357872009},{""trajectory_result"":0.0,""latency_sec"":41.91879391670227},{""trajectory_result"":0.0,""latency_sec"":44.25865054130554},{""trajectory_result"":-9.0,""latency_sec"":43.18106198310852},{""trajectory_result"":0.0,""latency_sec"":41.704466819763184},{""trajectory_result"":0.0,""latency_sec"":43.36735677719116},{""trajectory_result"":0.0,""latency_sec"":44.55480885505676},{""trajectory_result"":0.0,""latency_sec"":45.161070823669434},{""trajectory_result"":-9.0,""latency_sec"":46.43335318565369},{""trajectory_result"":0.0,""latency_sec"":45.35332798957825},{""trajectory_result"":0.0,""latency_sec"":46.430899143218994},{""trajectory_result"":0.0,""latency_sec"":49.866349935531616},{""trajectory_result"":0.0,""latency_sec"":46.46895670890808},{""trajectory_result"":0.0,""latency_sec"":49.86372780799866},{""trajectory_result"":0.0,""latency_sec"":50.07963037490845},{""trajectory_result"":0.0,""latency_sec"":49.86142420768738},{""trajectory_result"":0.0,""latency_sec"":60.95864486694336},{""trajectory_result"":0.0,""latency_sec"":49.23230457305908},{""trajectory_result"":0.0,""latency_sec"":65.67586612701416},{""trajectory_result"":0.0,""latency_sec"":64.0876111984253}]"
+18,17,200,82191,,"[{""trajectory_result"":0.0,""latency_sec"":23.264331340789795},{""trajectory_result"":-5.529850746268656,""latency_sec"":28.022029638290405},{""trajectory_result"":0.0,""latency_sec"":75.60221886634827},{""trajectory_result"":0.0,""latency_sec"":32.16436982154846},{""trajectory_result"":0.0,""latency_sec"":28.693063020706177},{""trajectory_result"":-2.25,""latency_sec"":29.00017023086548},{""trajectory_result"":0.0,""latency_sec"":37.006612062454224},{""trajectory_result"":0.0,""latency_sec"":81.96170258522034},{""trajectory_result"":0.00969387769547044,""latency_sec"":34.293452501297},{""trajectory_result"":0.0,""latency_sec"":37.00021481513977},{""trajectory_result"":0.0,""latency_sec"":32.1534538269043},{""trajectory_result"":0.0,""latency_sec"":38.45006465911865},{""trajectory_result"":0.0,""latency_sec"":35.9550416469574},{""trajectory_result"":0.0,""latency_sec"":40.53130507469177},{""trajectory_result"":0.0,""latency_sec"":38.26934862136841},{""trajectory_result"":0.0,""latency_sec"":40.84854483604431},{""trajectory_result"":0.0,""latency_sec"":38.444552183151245},{""trajectory_result"":0.0,""latency_sec"":42.60234975814819},{""trajectory_result"":0.0,""latency_sec"":42.97618365287781},{""trajectory_result"":0.0,""latency_sec"":42.978623390197754}]"
+13,27,200,81567,,"{""trajectory_result"":0,""latency_sec"":80.15036654472351}"
+1,29,200,81558,,"{""trajectory_result"":[],""latency_sec"":80.5634069442749}"
+4,28,200,84041,,"{""trajectory_result"":0.0,""latency_sec"":83.89772605895996}"
+10,24,200,87293,,"[{""trajectory_result"":0.0,""latency_sec"":66.86370873451233},{""trajectory_result"":0.0,""latency_sec"":60.582581520080566},{""trajectory_result"":0.0,""latency_sec"":67.85985708236694},{""trajectory_result"":0.0,""latency_sec"":67.20359134674072},{""trajectory_result"":0.0,""latency_sec"":69.80040907859802},{""trajectory_result"":0.0,""latency_sec"":73.8097927570343},{""trajectory_result"":0.0,""latency_sec"":73.48379421234131},{""trajectory_result"":0.0,""latency_sec"":71.69236874580383},{""trajectory_result"":0.0,""latency_sec"":78.38759183883667},{""trajectory_result"":0.0,""latency_sec"":72.3491849899292},{""trajectory_result"":0.0,""latency_sec"":76.77670621871948},{""trajectory_result"":0.0,""latency_sec"":74.0283989906311},{""trajectory_result"":0.0,""latency_sec"":78.49491786956787},{""trajectory_result"":0.0,""latency_sec"":80.71112418174744},{""trajectory_result"":0.0,""latency_sec"":79.6221535205841},{""trajectory_result"":0.0,""latency_sec"":80.7086615562439},{""trajectory_result"":0.0,""latency_sec"":83.01381158828735},{""trajectory_result"":0.0,""latency_sec"":86.0360062122345},{""trajectory_result"":0.0,""latency_sec"":80.88762784004211},{""trajectory_result"":0.0,""latency_sec"":81.58543944358826}]"
+19,30,200,89395,,"{""trajectory_result"":[],""latency_sec"":88.82997131347656}"
+2,31,0,90000,"Post ""http://188.34.95.88:8080/query"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+15,32,200,89636,,"{""trajectory_result"":0,""latency_sec"":88.87483406066895}"
+16,33,0,90000,"Post ""http://188.34.95.88:8080/query"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+8,34,0,90000,"Post ""http://188.34.95.88:8080/query"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+0,35,0,90000,"Post ""http://188.34.95.88:8080/query"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+11,36,0,90000,"Post ""http://188.34.95.88:8080/query"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+14,37,0,90004,"Post ""http://188.34.95.88:8080/query"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+6,41,200,58760,,"{""trajectory_result"":0.0,""latency_sec"":58.745174169540405}"
+5,38,200,86859,,"{""trajectory_result"":0,""latency_sec"":85.92352390289307}"
+12,39,200,84271,,"{""trajectory_result"":0.0,""latency_sec"":84.25052237510681}"
+9,40,200,67281,,"{""trajectory_result"":[],""latency_sec"":67.27565097808838}"

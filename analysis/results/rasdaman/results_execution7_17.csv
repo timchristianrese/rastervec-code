@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+9,2,200,1281,,"[false,false,false,false,false,false,false,false]"
+0,4,200,1303,,0.0
+3,6,200,1475,,-9.0
+7,11,200,1546,,0.0
+5,0,200,1696,,0.0
+4,7,200,1865,,0.0
+6,8,200,2147,,0.1
+10,9,200,2426,,0.0
+2,3,200,2601,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,13,200,1362,,"[false,false]"
+9,12,200,1609,,0.0
+3,14,200,1593,,0.0
+7,15,200,1877,,0.0
+6,18,200,1805,,0.0
+11,10,200,4023,,0.0
+10,19,200,2205,,0.0
+6,25,200,1144,,0.0
+7,24,200,1768,,0.0
+10,27,200,1429,,-9.0
+3,23,200,3086,,0.0
+4,17,200,4715,,0.0
+6,28,200,1973,,0.0
+0,21,200,4437,,0.0
+9,22,200,4262,,0.0
+7,29,200,2208,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,31,200,1640,,0.0
+1,5,200,8227,,0.0
+10,30,200,2278,,0.0
+0,34,200,1244,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+7,36,200,1322,,0.0
+3,37,200,1534,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,40,200,1133,,0.0
+10,39,200,1292,,0.0
+7,41,200,1286,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,38,200,3625,,0.0
+4,32,500,10778,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(23322 36 16,23322 36 16) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+5,16,200,19259,,"""0 0 0 0 0 0 0 -9 0 0 0 0 -9 0 0 0 0 0 0 0"""
+2,20,200,18963,,"""0 0 0 0 0 -9 0 0.02727272767912258 0 0 0 0 0 0 0 0 0 0 0 0"""
+8,1,200,21652,,"""0.04285714349576405 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0"""
+11,26,200,18767,,"""0.006250000093132257 0 0 0 0 0 -9 0 0 0 0 0 0 0.1500000022351742 0 0 0 0 0 0"""
+9,35,200,16256,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+6,33,200,16394,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

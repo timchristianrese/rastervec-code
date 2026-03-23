@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+2,3,200,561,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,0,200,639,,0.0
+3,2,200,642,,0.0
+1,5,200,534,,0.0
+2,4,200,800,,0.0
+3,6,200,1270,,0.0
+2,8,200,687,,0.0
+1,7,200,1322,,0.0
+2,10,200,501,,0.0
+3,9,200,716,,0.0
+3,13,500,24,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(65543 28 13,65543 28 13) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_alloc</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+2,12,200,476,,0.0
+3,14,200,623,,0.0
+2,15,200,466,,"[false,false,false,false]"
+2,17,200,691,,0.0
+1,11,200,2003,,0.0
+0,1,200,11971,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1050000015646219 0 0 0 0"""
+0,20,200,456,,"[false,false,false,false,false]"
+3,16,200,10365,,"""-9 0 0 0 0 0 0 0 0.0833333358168602 0 0 0 0 -9 0 0 0 0 0 0"""
+0,21,200,1578,,0.0
+1,19,200,9670,,"""0 0 0 0 0 0 0 0 0.02500000037252903 0 0 0 0 0 0 0 0 0 0 0"""
+0,23,200,505,,0.0
+1,24,200,561,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,18,200,10654,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.007692307806932009 0 0 0 0 0"""
+3,22,200,1333,,0.0
+1,26,200,532,,0.0
+2,27,200,520,,0.0
+3,28,200,696,,-9.0
+1,29,200,484,,0.0
+0,25,200,1444,,0.0
+2,30,200,679,,0.0
+3,31,200,641,,0.0
+2,34,200,448,,"[false,false]"
+3,35,200,531,,"[false,false,false,false,false,false,false,false]"
+3,37,200,451,,0.0
+3,38,200,577,,0.0
+3,39,200,617,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,36,200,2394,,0.0
+3,40,200,504,,0.0
+1,32,200,9560,,"""0 0 0 0 0 0 0.0333333338300387 0 0 0 0 0 0 0 0 0 0.02500000037252903 0 0 0"""
+0,33,200,10083,,"""0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0 -9 0 0 0"""
+2,41,200,9172,,"""0 0 0 0 -9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

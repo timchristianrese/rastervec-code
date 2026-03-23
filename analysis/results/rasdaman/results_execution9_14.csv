@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+6,16,200,1717,,"[false,false,false,false,false]"
+0,12,200,1734,,0.0
+15,2,200,1880,,0.0
+13,10,200,2152,,0.0
+5,17,200,2251,,"[false,false,false,false,false,false,false,false,false]"
+4,11,200,2504,,0.0
+11,6,200,2524,,0.0
+8,19,200,2636,,0.0
+16,5,200,2754,,0.0
+12,9,200,3134,,0.0
+19,8,200,3131,,0.0
+7,18,200,3341,,0.0
+10,7,200,4535,,0.0
+6,20,200,2934,,0.0
+0,21,200,3233,,0.0
+12,29,200,2261,,0.0
+8,27,200,3036,,0.022222222553359136
+11,26,200,3214,,0.0
+16,28,200,3374,,0.0
+1,13,200,6162,,0.0
+7,31,200,2903,,"[false,false,false,false,false,false,false,false,false,false,false]"
+19,30,200,3342,,0.0
+6,33,200,3034,,0.0
+17,3,200,7859,,0.0
+11,37,200,2714,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+12,35,200,3194,,0.0
+0,34,200,3746,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,15,200,8877,,0.0
+1,39,200,2862,,0.0
+16,38,200,2941,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+5,24,200,6862,,0.0
+19,41,200,3223,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+10,32,200,6116,,0.0
+15,22,200,8817,,0.0
+7,40,200,5968,,0.0
+2,14,500,16541,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(30203 29 15,30203 29 15) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+18,4,200,21717,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+9,0,200,21780,,"""-9 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0"""
+4,25,200,19888,,"""0 0.02500000037252903 0 0 0.02083333364377419 0 0 0 0 0 0 -9 0 0 0 0 -9 0 0 0"""
+14,1,200,22933,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09615384758665012 0 0 0 0"""
+8,36,200,17799,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+13,23,200,21761,,"""0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0.8000000072298227 0 0 0 0 -9"""

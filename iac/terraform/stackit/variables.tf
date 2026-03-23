@@ -10,3 +10,11 @@ variable "tags" {
     "managedby" = "terraform"
   }
 }
+variable "service_account_key_path" {
+  description = "Path to the Stackit service account key file (JSON)."
+  type        = string
+}
+variable "private_key_path" {
+  description = "Path to the private key file (PEM) for SSH access."
+  type        = string
+}

@@ -18,8 +18,8 @@ cp "$FILE" "$BACKUP"
 echo "Backup created at $BACKUP"
 sed -i \
     -e 's/^authentication_type=.*/authentication_type=/' \
-    -e 's/^rasdaman_user=.*/rasdaman_user=rasguest/' \
-    -e 's/^rasdaman_pass=.*/rasdaman_pass=rasguest/' \
+    -e 's/^rasdaman_user=.*/rasdaman_user=rasadmin/' \
+    -e 's/^rasdaman_pass=.*/rasdaman_pass=rasadmin/' \
     "$FILE"
 
 echo "Restarting rasdaman..."

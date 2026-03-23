@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+2,1,200,484,,0.0
+1,0,200,578,,0.0
+2,4,200,533,,0.0
+1,5,200,591,,0.0
+3,2,200,1250,,0.0
+2,6,200,657,,0.0
+1,7,200,521,,0.0
+3,8,200,725,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,9,200,1445,,0.0
+3,11,200,1419,,0.0
+2,12,200,580,,0.0
+3,13,200,794,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,14,200,653,,0.0
+3,15,200,549,,"[false,false,false,false,false,false,false,false,false]"
+3,17,200,511,,0.0
+2,16,200,1388,,0.0
+2,19,200,582,,"[false,false,false,false,false,false,false,false,false,false,false,false]"
+3,18,200,1287,,0.0
+3,21,200,520,,0.0
+2,20,200,783,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,22,200,542,,0.0
+3,24,200,558,,0.0
+3,25,200,493,,0.0
+0,3,200,9384,,"""0 0 0 0 0 0.009523809665725344 0 0 -9 0 0 0 0 0 0 0 0 0 0 -9"""
+0,27,200,880,,0.0
+3,26,200,1808,,0.0
+0,28,200,666,,0.0
+3,29,200,911,,0.0
+0,30,200,560,,0.0
+1,10,200,11091,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+0,32,200,1766,,0.0
+0,34,200,741,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,35,200,577,,0.0
+0,36,200,578,,0.0
+2,23,200,9748,,"""0 0 0 0 -9 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0"""
+1,33,500,5106,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(92409 32 17,92409 32 17) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+1,39,200,478,,0.0
+1,40,200,661,,0.0
+1,41,200,479,,"[false,false,false,false]"
+3,31,200,9768,,"""0 0 0 0 0 0 0 0 0.1050000015646219 0 0 0 0 0 0 0 -9 0 0 0"""
+0,37,200,9095,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0"""
+2,38,200,10288,,"""0 0 -9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

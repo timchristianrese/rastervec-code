@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+16,11,200,1735,,"[false,false,false,false]"
+6,15,200,1999,,0.0
+0,0,200,2194,,"[false,false,false,false,false,false,false]"
+7,16,200,2287,,0.0
+18,13,200,2431,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,1,200,2570,,-9.0
+15,10,200,2568,,0.0
+8,17,200,2717,,0.0
+10,19,200,3066,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+12,5,200,3259,,0.0
+3,3,200,3470,,0.0
+7,23,200,2821,,0.0
+1,25,200,2620,,0.0
+0,22,200,3379,,0.0
+15,26,200,3028,,"[false,false,false,false,false,false,false,false,false]"
+8,27,200,2967,,0.0
+18,24,200,3286,,0.0
+12,29,200,2557,,"[false,false,false,false,false,false,false,false]"
+5,8,200,6272,,0.0
+10,28,200,3455,,0.0
+4,7,200,6668,,0.0
+3,30,200,3199,,0.0
+13,6,200,7191,,0.0
+14,9,500,7259,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(45917 29 14,45917 29 14) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+1,32,200,3129,,0.0
+19,14,200,8445,,0.0
+15,34,200,2911,,0.0
+8,35,200,2898,,0.0
+16,20,200,6905,,0.0
+18,36,200,3052,,-9.0
+5,38,200,2608,,0.0
+11,4,200,9259,,0.0
+4,40,200,2632,,0.0
+12,37,200,3603,,0.0
+10,39,200,3021,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+7,31,200,5869,,0.0
+9,18,200,20603,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0.04761904832862672 -9 0"""
+6,21,200,18734,,"""0 0 0 0 0 0.2166666686534882 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+2,2,200,21141,,"""0 0 0 -9 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0"""
+17,12,200,21487,,"""0 0.05833333420256773 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0"""
+3,41,200,15908,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0"""
+0,33,200,19594,,"""0 0 -9 0 0 0 0 0 0 0 0 0 -9 0 0 -9 0 0 0 0"""

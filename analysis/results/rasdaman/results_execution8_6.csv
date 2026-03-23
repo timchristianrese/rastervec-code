@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+3,2,200,487,,0.0
+1,3,200,528,,0.0
+0,0,200,529,,0.0
+0,6,200,534,,"[false,false,false,false,false,false,false,false,false,false,false]"
+1,5,200,656,,0.0
+2,1,200,1436,,0.0
+1,8,200,534,,0.0
+0,7,200,865,,0.0
+2,9,200,572,,0.0
+0,11,200,470,,0.0
+2,12,200,1698,,0.0
+2,14,200,611,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,13,200,2005,,0.0
+0,16,200,753,,0.0
+0,17,200,518,,0.0
+2,15,200,1491,,0.0
+2,19,200,718,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,18,200,1044,,0.004761904832862672
+2,20,200,488,,"[false,false,false,false,false,false,false]"
+0,21,200,465,,0.0
+2,22,200,702,,0.0
+2,24,200,494,,0.0
+2,25,200,1914,,0.0
+3,4,200,9936,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0"""
+2,26,200,536,,0.0
+3,27,200,585,,0.0
+2,28,200,475,,0.0
+2,30,200,621,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,10,200,10054,,"""0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0"""
+1,32,200,1227,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,31,200,1571,,0.0
+3,29,500,4442,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(42868 27 12,42868 27 12) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+0,23,200,9366,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+3,35,200,1778,,0.0
+0,36,200,1668,,0.0
+3,37,200,1281,,0.0
+0,38,200,806,,0.0
+3,39,200,581,,0.0
+3,41,200,687,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,33,200,11036,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+2,34,200,11936,,"""0 0 0 0 0 0 0 0 0 -9 0 0 0.408000009059906 0 0 0 0 0 0 0"""
+0,40,200,9267,,"""0 0 0 0 0 0 0 -9 0 0 0 0.02352941211532144 0 0 0 0 0 0 0 0"""

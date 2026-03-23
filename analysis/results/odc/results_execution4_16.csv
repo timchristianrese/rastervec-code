@@ -1,0 +1,2 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+0,0,200,3290,,"[{""trajectory_result"":0.0,""latency_sec"":2.998981237411499},{""trajectory_result"":0.0,""latency_sec"":0.21513986587524414},{""trajectory_result"":0.0,""latency_sec"":1.0618255138397217},{""trajectory_result"":0.0,""latency_sec"":3.280888795852661},{""trajectory_result"":0.0,""latency_sec"":0.5904929637908936}]"

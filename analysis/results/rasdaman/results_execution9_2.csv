@@ -1,0 +1,59 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+10,1,500,139,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(99508 26 13,99508 26 13) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+1,19,200,1843,,"[false,false,false,false]"
+7,8,200,1993,,0.0
+4,5,200,2084,,0.0
+6,7,200,2085,,0.0
+18,16,200,2351,,0.0
+16,11,200,2370,,0.0
+9,0,200,2415,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+14,14,200,2623,,0.0
+19,18,200,2654,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+5,6,200,2839,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+11,2,200,3051,,0.6000000238418579
+18,25,500,782,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(36495 28 13,36495 28 13) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+8,9,200,3137,,0.0
+15,15,200,3194,,0.0
+12,12,200,3326,,0.0
+16,26,200,2494,,0.0
+14,28,200,2423,,"[false,false]"
+1,21,200,3349,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+19,29,200,2743,,0.0
+18,32,200,2738,,0.0
+5,30,200,3076,,0.0
+11,31,200,3033,,0.0
+15,34,200,2919,,0.0
+10,20,200,6081,,0.0
+8,33,200,3621,,0.0
+14,37,200,2324,,0.0
+17,17,200,7551,,0.0
+5,41,200,1989,,0.0
+16,36,200,3169,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+4,23,200,6078,,0.0
+18,40,200,2478,,0.0
+6,24,200,6970,,0.0
+7,22,200,7245,,0.0
+19,39,200,5685,,0.0
+0,3,200,20914,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0"""
+3,10,200,21336,,"""0 0 0 0 0 0 0 0 0 0 0 0.01428571449858802 0 0 0 0 0 0 0 0"""
+2,4,200,22146,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+12,35,200,19632,,"""0 0 0 0 0 0 0 0 0.05000000136593977 0 0 0 0 0 0.04102564163697071 0 0 0 0 0"""
+13,13,200,22998,,"""0 0 0 0 0 0 0 -9 0 0.1142857163434937 0 0 0 0 0 0 0 0 0 0"""
+9,27,200,20986,,"""0 0 0.003125000046566129 0 0 0 0 0 0 0 0 -9 0 0 0.1789473730482553 -9 0 0 0 0.2000000063668598"""
+1,38,200,20914,,"""0 0 0 0 0 0 0 0 0 0.9538461565971375 0 0 0 0 0 0 0 0 0 0"""

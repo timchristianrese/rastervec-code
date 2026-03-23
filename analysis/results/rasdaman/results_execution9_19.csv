@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+12,7,200,1944,,0.0
+8,15,200,2021,,-9.0
+9,0,200,2230,,0.0
+7,14,200,2344,,0.0
+5,3,200,2404,,"[false,false]"
+17,10,200,2558,,0.0
+11,6,200,2745,,0.0
+14,9,200,2896,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,16,200,3065,,0.0
+18,17,200,3233,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+19,18,200,3243,,0.0
+4,2,200,3425,,0.0
+15,5,200,4097,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,12,200,4436,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+12,20,200,3120,,0.0
+8,21,200,3070,,0.0
+5,24,200,3289,,0.0
+2,28,200,2876,,0.0
+19,30,200,2949,,"[false,false,false,false]"
+11,26,200,3728,,-9.0
+15,32,200,2667,,0.0
+4,31,200,3615,,0.0
+0,33,200,2869,,0.0
+3,19,200,7496,,0.0
+13,8,200,7819,,0.0
+5,36,200,2907,,"[false,false,false,false,false,false,false,false,false]"
+2,37,200,2849,,0.0
+19,38,200,2813,,0.0
+11,39,200,2573,,0.0
+17,25,200,6922,,0.0
+14,27,200,6806,,0.0
+15,40,200,2961,,0.0
+9,22,200,7890,,0.0
+8,35,200,6550,,0.0
+4,41,200,5255,,0.0
+10,1,500,12515,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(45400 29 17,45400 29 17) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+6,4,200,21275,,"""0 -9 0 0 0 0 0 0 0 0.0333333338300387 0 0 0 0 0 0 0 0 0 0"""
+16,11,200,21789,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+7,23,200,20037,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+1,13,200,22528,,"""0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0"""
+18,29,200,19590,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02857142899717604 0"""
+12,34,200,18589,,"""0 0 0 0 0 0 0 0 0 0.06250000186264515 0 0 0 0 0 0 0 0 0 0"""

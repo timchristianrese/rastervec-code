@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+13,19,200,2064,,0.0
+18,7,200,2225,,"[false,false,false,false,false]"
+15,2,200,2409,,0.0
+14,1,200,2517,,0.0
+6,15,200,2732,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,11,200,2927,,0.0
+8,17,200,3034,,0.0
+17,6,200,3059,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+5,14,200,3355,,0.0
+0,9,200,3514,,0.0
+12,18,200,3612,,0.0
+16,4,200,3730,,0.0
+4,13,200,3852,,0.0
+7,16,200,4059,,0.0
+14,23,200,2784,,"[false,false,false,false,false,false]"
+10,3,200,5434,,0.0
+15,22,200,3106,,0.0
+6,24,200,2975,,0.0
+17,27,200,2670,,0.0
+0,29,200,2599,,0.0
+16,31,200,3128,,0.0
+12,30,200,3338,,0.0
+4,32,200,3651,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+7,33,200,3566,,0.0
+1,10,200,8164,,0.0
+15,36,200,2969,,0.0
+6,37,200,2895,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+17,38,200,3127,,0.0
+0,39,200,2919,,0.0
+16,40,200,2466,,"[false,false,false,false,false,false,false,false,false,false,false,false]"
+5,28,200,6416,,0.0
+18,21,200,7918,,0.0
+2,25,200,7376,,0.0
+10,35,200,5632,,0.0
+12,41,200,4557,,0.0
+9,0,500,12172,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(71563 28 13,71563 28 13) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+19,8,200,21028,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04838709749521748 0 0"""
+11,5,200,22018,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+14,34,200,16732,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+8,26,200,19897,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0"""
+13,20,200,21021,,"""0 -9 0 0 -9 0 0 0 0 0 0 0 0.0953488394964573 0 0 0 0 0.006666666766007742 0 0"""
+3,12,200,23107,,"""0 0 0.008695652303488358 0 0 -9 0 0 0.004761904832862672 0 0 -9 0 0 0 0 0 0 0 0"""

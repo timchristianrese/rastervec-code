@@ -1,0 +1,3 @@
+SUT,Execution time (ms),ω.90 (ms),ω.99 (ms),Avg. latency (ms)
+Rasdaman,11719,691.2,782.55,585.95
+OpenDataCube,14784,1031.6,2428.49,739.2

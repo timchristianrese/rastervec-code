@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+7,10,200,1252,,-9.0
+11,7,200,1770,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,1,200,1789,,"[false,false,false,false,false]"
+5,9,200,1930,,0.0
+8,11,200,2119,,"[false,false,false,false,false,false,false,false,false,false,false]"
+4,8,200,2278,,0.0
+1,0,200,2485,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,3,200,2669,,0.0
+2,2,200,2925,,0.0
+10,5,200,3175,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+7,12,200,2169,,0.0
+11,13,200,1829,,-9.0
+5,15,200,2113,,0.0
+8,16,200,2262,,0.0
+0,14,200,2601,,0.0
+1,18,200,2089,,0.0
+4,17,200,2338,,0.0
+3,19,200,2297,,0.0
+5,24,200,2125,,0.0
+8,25,200,1863,,0.0
+11,23,200,3011,,-9.0
+1,27,200,2113,,0.0
+3,29,200,2242,,-9.0
+10,21,200,4904,,0.0
+4,28,200,3955,,0.0
+11,32,200,2616,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,33,200,2563,,0.0
+0,26,200,5149,,0.0
+7,22,200,7293,,0.0
+8,31,200,4516,,0.0
+11,37,200,1886,,0.0
+0,39,200,1870,,0.0
+3,34,500,4666,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(42822 28 13,42822 28 13) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+7,40,200,4157,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,38,200,8434,,0.0
+8,41,200,6957,,0.0
+6,6,200,26595,,"""0 0 -9 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0"""
+9,4,200,26783,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+2,20,200,24170,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0"""
+5,30,200,23114,,"""0 0 0 0 0 0.1050000015646219 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+10,35,200,21307,,"""0 0 0 -9 0 0 0 0 0 0 0 0 0 0.03529411904952105 0 0 -9 0 0 0"""
+4,36,200,22335,,"""0 0 0 -9 0 0 0 0 0 -9 0 0 -9 0 0 0 0 0 0 0"""
