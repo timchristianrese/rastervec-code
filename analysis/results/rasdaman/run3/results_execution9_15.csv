@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+13,7,200,1884,,0.0
+14,3,200,2134,,0.0
+8,16,200,2206,,0.1363636390729384
+3,13,200,2274,,0.0
+17,18,200,2396,,0.0
+2,12,200,2451,,"[false,false,false,false,false,false,false,false,false,false]"
+11,5,200,2518,,"[false,false,false,false,false,false]"
+19,19,200,2585,,0.0
+1,11,200,2720,,0.0
+5,9,200,2998,,-9.0
+0,10,200,3136,,0.0
+6,14,200,3372,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+13,20,200,2546,,0.0
+19,27,200,2359,,"[false,false,false,false,false,false,false,false]"
+14,21,200,2931,,0.0
+12,6,200,5123,,0.0
+2,25,200,2782,,0.0
+17,24,200,2995,,0.0
+5,29,200,2715,,0.0
+11,26,200,3203,,0.0
+1,28,200,3001,,0.0
+6,31,200,2416,,0.4000000059604645
+4,1,200,6583,,0.0
+0,30,200,3482,,0.0
+1,40,500,1096,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(83108 33 19,83108 33 19) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+7,15,200,6943,,0.0
+19,33,200,3046,,0.0
+5,38,200,2508,,"[false,false,false,false,false,false,false,false,false]"
+12,35,200,3090,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+11,39,200,2888,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+14,34,200,3635,,0.0
+13,32,200,5040,,0.0
+2,36,200,5111,,0.0
+17,37,200,5763,,0.0
+6,41,200,5802,,0.0
+15,2,200,22851,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+9,0,200,22938,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0"""
+18,17,200,22939,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+8,22,200,21488,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 -9"""
+3,23,200,21602,,"""0 0 0.1400000035762787 0 0 0.05000000074505806 0.005263157973164006 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+10,4,200,25087,,"""0 0 0 0 0 0 0 0 0 0 0.02727272767912258 0 0 0 0.03181818229230968 -9 0 0 0 0"""
+16,8,200,25182,,"""0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0"""

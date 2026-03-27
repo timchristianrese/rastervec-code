@@ -46,7 +46,7 @@ resource "stackit_public_ip" "rasdaman-sut" {
 
 resource "stackit_volume" "rasdaman-sut" {
   project_id        = var.project_id
-  name              = "rasdaman-sut"
+  name              = "rasdaman-sut-tim"
   availability_zone = "eu01-2"
   source = {
     type                  = "image"
@@ -59,7 +59,7 @@ resource "stackit_volume" "rasdaman-sut" {
 
 resource "stackit_server" "rasdaman-sut" {
   project_id        = var.project_id
-  name              = "rasdaman-sut"
+  name              = "rasdaman-sut-tim"
   availability_zone = "eu01-2"
   machine_type      = "g2i.4"
   boot_volume = {
@@ -87,7 +87,7 @@ resource "stackit_public_ip" "rasdaman-client" {
 
 resource "stackit_volume" "rasdaman-client" {
   project_id        = var.project_id
-  name              = "rasdaman-client"
+  name              = "rasdaman-client-tim"
   availability_zone = "eu01-2"
   source = {
     type                  = "image"
@@ -100,7 +100,7 @@ resource "stackit_volume" "rasdaman-client" {
 
 resource "stackit_server" "rasdaman-client" {
   project_id        = var.project_id
-  name              = "rasdaman-client"
+  name              = "rasdaman-client-tim"
   availability_zone = "eu01-2"
   machine_type      = "g2i.4"
   boot_volume = {

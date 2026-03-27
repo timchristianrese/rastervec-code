@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+9,3,200,1894,,"[false,false,false,false,false,false,false,false,false,false,false]"
+14,10,200,2048,,"[false,false,false,false]"
+11,7,200,2289,,0.0
+4,12,200,2308,,0.0
+7,15,200,2469,,"[false,false,false,false,false,false,false,false,false,false]"
+6,14,200,2476,,0.0
+18,18,200,2617,,0.0
+5,13,200,2754,,0.0
+17,16,200,2755,,0.0
+16,17,200,2786,,0.0
+19,19,200,2789,,0.0
+1,2,200,2880,,0.0
+13,9,200,3429,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+12,8,200,3566,,0.0
+1,31,500,699,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(31472 33 16,31472 33 16) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+9,20,200,2876,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,4,200,5111,,0.0
+7,24,200,2764,,0.0
+16,29,200,2652,,0.0
+14,21,200,3538,,0.0
+1,34,200,2368,,0.0
+17,28,200,3209,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+19,30,200,3508,,0.0
+8,0,200,6700,,0.0
+13,32,200,3418,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+10,5,200,7230,,0.0
+3,1,200,7671,,0.0
+7,37,200,2578,,0.0
+2,36,200,3042,,0.10000000149011612
+9,35,200,3464,,0.0
+15,11,200,8313,,0.0
+16,38,200,2966,,0.0
+14,39,200,2825,,0.0
+11,22,200,7039,,0.0
+17,41,200,4807,,0.0
+5,27,200,18834,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+18,26,200,19586,,"""0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0.009523809665725344 0"""
+0,6,200,23312,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02105263189265602 0 0 0 0"""
+12,33,200,20169,,"""0 0 0.0294117651441518 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0 0 0"""
+6,25,200,21385,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0.01250000018626451 0 0 0"""
+4,23,200,22104,,"""0 0 0 0 0 -9 0 0 0 0 0 0 -9 0 0 0 0 0 0 0"""
+1,40,200,18879,,"""0 0 0 0 0 0 0 0 0 0 0.9538461565971375 0 0 0 0.01111111127667957 -9 0 0 0 0"""

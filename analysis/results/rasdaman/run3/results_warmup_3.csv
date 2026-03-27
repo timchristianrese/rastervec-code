@@ -1,0 +1,7 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+1,0,200,432,,"[false,false,false]"
+0,1,200,457,,0.0
+0,3,200,1214,,0.0
+0,4,200,505,,0.0
+1,2,200,2045,,"""0 0 0 0"""
+0,5,200,608,,0.0

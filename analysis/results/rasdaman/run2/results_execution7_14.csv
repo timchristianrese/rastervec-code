@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+8,2,200,1396,,0.0
+1,7,200,1396,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,9,200,1458,,0.0
+10,3,200,1484,,0.0
+7,8,200,1527,,0.0
+11,4,200,1648,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,5,200,1994,,0.0
+6,6,200,2082,,0.0
+2,10,200,2368,,0.0
+10,15,200,1467,,0.0
+11,17,200,1766,,0.0
+1,13,200,2128,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+6,19,200,1790,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+9,1,200,4262,,0.0
+11,22,200,1078,,0.0
+2,20,200,2187,,0.0
+10,21,200,1810,,0.0
+6,24,200,1409,,0.0
+8,12,200,4363,,0.0
+5,0,200,5770,,0.0
+11,26,200,1508,,0.0
+2,27,200,1749,,0.0
+8,30,200,1773,,0.0
+11,32,200,1529,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+6,29,200,2343,,0.0
+0,18,200,5921,,0.0
+0,37,200,1105,,2.7
+8,34,200,1532,,"[false,false,false,false,false,false,false]"
+11,35,200,1760,,0.0
+10,28,200,5040,,0.0
+0,38,200,1347,,"[false,false,false,false,false]"
+10,41,200,1161,,0.0
+11,40,200,1884,,0.1
+6,36,200,3997,,0.0
+8,39,200,4221,,0.0
+2,33,500,11721,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(54651 27 14,54651 27 14) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+7,16,200,19737,,"""0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0.2153846185940962"""
+3,14,200,20767,,"""0 0 0 0 -9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+9,25,200,17985,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+4,11,200,22829,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+5,31,200,17921,,"""0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0"""
+1,23,200,20308,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02352941211532144 0 0 0"""

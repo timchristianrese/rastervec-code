@@ -1,0 +1,59 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+14,15,500,443,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(56045 44 24,56045 44 24) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+1,2,200,3312,,0.0
+3,4,200,5600,,0.0
+11,5,200,5746,,0.0
+8,10,200,5745,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+17,18,200,5751,,"[false,false,false,false,false,false]"
+9,8,200,5805,,"[false,false,false,false]"
+10,9,200,5877,,0.0
+15,16,200,5914,,0.0
+13,14,200,6427,,0.0
+12,13,200,6437,,0.0
+14,20,200,6042,,0.10000000149011612
+19,19,200,6486,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,1,200,6504,,0.0
+4,0,200,6592,,0.0
+7,11,200,6776,,0.0
+17,25,200,2498,,0.0
+8,24,200,2758,,"[false,false,false,false,false,false,false]"
+9,26,200,2883,,0.0
+1,21,200,5452,,0.0
+15,28,200,3097,,0.0
+4,34,200,2464,,"[false,false,false,false,false,false]"
+18,17,200,9236,,0.0
+0,33,200,3355,,0.0
+19,31,200,3536,,0.0
+2,3,200,10057,,0.0
+17,36,200,2784,,0.0
+16,12,200,11186,,0.0
+1,39,200,2594,,0.0
+8,37,200,3184,,0.0
+4,41,200,2700,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+15,40,200,2775,,0.0
+12,30,200,5700,,0.0
+11,23,200,6671,,0.0
+9,38,200,5619,,0.0
+6,7,500,17067,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(22005 29 13,22005 29 13) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+5,6,200,24117,,"""0 0 -9 0 0 0 0 0 0 0 0 0 0 -9 -9 0 0 0 0 0"""
+10,27,200,19319,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+3,22,200,19645,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 -9 0 0"""
+14,32,200,18876,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+7,35,200,19715,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+13,29,200,21109,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.002857142899717603 0"""

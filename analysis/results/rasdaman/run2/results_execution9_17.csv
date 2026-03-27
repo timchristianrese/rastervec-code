@@ -1,0 +1,43 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+16,5,200,1903,,0.0
+0,8,200,1965,,"[false,false,false,false,false,false,false,false,false,false,false,false]"
+19,19,200,2163,,0.0
+10,1,200,2358,,"[false,false,false,false,false,false,false,false,false,false,false]"
+1,9,200,2712,,0.0
+5,3,200,2890,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+13,17,200,3136,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+12,14,200,3227,,0.0
+4,2,200,3365,,0.0
+6,4,200,3463,,0.0
+16,20,200,2717,,0.0
+19,22,200,2939,,0.0
+10,23,200,2941,,0.0
+15,11,200,5730,,0.0
+12,27,200,2655,,0.0
+9,0,200,5881,,0.0
+5,25,200,3259,,0.0
+1,24,200,3469,,0.048387097495217475
+14,18,200,6793,,0.0
+17,6,200,6981,,0.0
+16,30,200,3388,,"[false,false,false,false,false,false,false,false,false,false,false]"
+15,33,200,2775,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+11,15,200,8692,,0.0
+10,32,200,3420,,0.0
+14,38,200,2277,,0.0
+9,35,200,3301,,0.0
+5,36,200,3131,,0.0
+1,37,200,3430,,0.0
+17,39,200,2676,,0.0
+12,34,200,3871,,0.0
+7,7,200,9887,,0.0
+16,40,200,2749,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+15,41,200,2514,,0.0
+4,28,200,8063,,0.0
+19,31,200,6444,,0.0
+0,21,200,21152,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05000000136593977 0 0 0"""
+2,10,200,24170,,"""0 0 0 0.007142857249294009 0 0 0 0 0 0 0 0 0 0 -9 0.05000000074505806 0 0 0 0"""
+8,13,200,24198,,"""0 0 0 0.004000000059604645 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0 0"""
+18,16,200,24543,,"""0 0 0.1000000014901161 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+13,26,200,21420,,"""0 0 0 0.05882353072657304 0 -9 0 0 0 0 0.02500000074505806 0 0 0 -9 0 0 0 0 0"""
+6,29,200,21285,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 -9"""
+3,12,200,25301,,"""0 -9 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 -9 0 0"""

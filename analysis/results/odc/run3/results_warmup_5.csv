@@ -1,0 +1,7 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+0,0,200,410,,"{""trajectory_result"":0.0,""latency_sec"":0.40266919136047363}"
+0,2,200,716,,"{""trajectory_result"":0,""latency_sec"":0.712064266204834}"
+0,3,200,647,,"{""trajectory_result"":0.0,""latency_sec"":0.6416118144989014}"
+0,4,200,442,,"{""trajectory_result"":[],""latency_sec"":0.43863677978515625}"
+1,1,200,3126,,"[{""trajectory_result"":0.0,""latency_sec"":1.1422133445739746},{""trajectory_result"":0.0,""latency_sec"":2.233933210372925},{""trajectory_result"":0.0,""latency_sec"":1.898603916168213},{""trajectory_result"":0.0,""latency_sec"":3.1013126373291016}]"
+0,5,200,1050,,"{""trajectory_result"":0.0,""latency_sec"":1.0464982986450195}"

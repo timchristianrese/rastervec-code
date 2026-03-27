@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+12,4,200,1926,,"[false,false,false,false,false,false,false,false]"
+4,12,200,1941,,"[false,false,false,false]"
+0,0,200,2395,,0.0
+7,16,200,2388,,0.0
+1,1,200,2509,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+17,18,200,2565,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+15,19,200,2830,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+19,10,200,2869,,0.0
+5,14,200,3049,,0.0
+18,7,200,3236,,0.0
+6,15,200,3369,,0.0
+11,3,200,3915,,0.0
+4,21,200,3145,,-9.0
+1,24,200,3292,,0.0
+12,20,200,4315,,0.1
+6,30,200,3088,,0.0
+0,22,200,4078,,0.0
+19,27,200,3853,,0.0
+11,31,200,3509,,0.0
+3,11,200,7596,,0.0
+5,28,200,4671,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+4,32,200,2774,,0.0
+8,17,200,8149,,0.0
+6,35,200,2900,,0.0
+16,6,200,9748,,0.0
+12,34,200,3516,,0.0
+1,33,200,4098,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+19,37,200,3373,,0.0
+5,40,200,2572,,0.0
+3,39,200,2843,,0.0
+4,41,200,2676,,0.0
+15,26,200,7776,,0.0
+18,29,200,7843,,0.0
+9,13,200,11439,,0.0
+13,5,500,11965,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(37901 28 11,37901 28 11) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+0,36,200,5750,,0.0
+14,8,200,22878,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+17,25,200,20567,,"""0.07142857249294009 0 0 0 0 0 0 0 0 0 0.01500000022351742 0 0 0 0 0 0 0 0 0"""
+10,2,200,23415,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+2,9,200,23503,,"""0 0 0.004285714349576406 0 0 0 0 0 0 0 0 0 0 0 0.007692307806932009 0 0 0 0 0"""
+7,23,200,21454,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+11,38,200,17231,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

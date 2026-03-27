@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+4,6,200,855,,0.0
+7,5,200,1374,,"[false,false,false,false]"
+10,9,200,1521,,0.0
+9,10,200,1677,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,0,200,1786,,0.0
+5,8,200,1916,,0.0
+11,11,200,2292,,0.0
+4,12,200,2115,,0.0
+10,14,200,1538,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+6,1,200,3123,,0.0
+0,16,200,1700,,0.0
+7,13,200,2151,,0.0
+5,17,200,1736,,"[false,false,false,false]"
+3,2,200,4083,,-9.0
+1,3,200,4542,,0.0
+10,20,200,1533,,0.0
+7,23,200,1399,,0.0
+4,19,200,2013,,0.0
+0,22,200,1625,,-9.0
+9,15,200,3745,,0.0
+5,24,200,1769,,0.0
+10,27,200,1623,,0.1
+3,25,200,2283,,6.800000175833702
+11,18,200,4301,,0.0
+0,30,200,1643,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+4,29,200,1867,,0.0
+10,33,200,1795,,0.0
+3,34,200,1702,,0.0
+0,36,200,1956,,0.0
+11,35,200,2168,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+7,28,200,4369,,0.0
+3,39,200,1836,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+11,41,200,1681,,0.0
+0,40,200,2669,,0.0
+4,37,200,4617,,0.0
+8,7,500,13349,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(42868 27 12,42868 27 12) ))  FROM DWD_5min_4326 AS c'. Reason: Exception: The dimension of the points differs from that of the MDD object in which they are expected to lie.</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+6,21,200,17400,,"""0 0 0 0 0 0 0.00588235302883036 0 0 0 0 0.06000000089406967 0 0 -9 0 0 0 0 0"""
+2,4,200,21047,,"""0 0.008433735244963542 0 0 0 0 0 0 0 0 0 0 0.05000000136593977 0 0 0 0 0 0 0"""
+5,32,200,16059,,"""0 0 0 0 0 0 0 0 0 0 0 0.300000009055321 0 0 0 0 0 0 0 0"""
+1,26,200,17557,,"""0 0 0 0 0 0 0.00588235302883036 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+9,31,200,16696,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0"""
+10,38,200,16641,,"""-9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

@@ -1,0 +1,59 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+0,1,200,557,,"[false,false,false,false,false,false,false,false,false,false,false]"
+1,0,200,643,,0.0
+2,2,200,662,,0.0
+1,5,200,592,,0.0
+3,3,200,1902,,0.0
+0,4,200,1675,,0.0
+3,8,200,536,,0.0
+0,9,200,527,,"[false,false,false,false,false,false,false,false,false,false,false]"
+3,10,200,930,,0.0
+3,12,200,490,,0.0
+1,7,500,3091,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(45917 29 14,45917 29 14) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+0,11,200,1708,,0.0
+3,13,200,623,,0.0
+1,14,200,575,,0.0
+0,15,200,536,,0.0
+3,16,200,599,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,17,200,584,,0.0
+3,19,200,571,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,21,200,575,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,6,500,5647,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(32219 44 21,32219 44 21) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+1,20,200,1275,,0.0
+1,24,200,507,,"[false,false,false,false,false]"
+1,25,200,594,,0.0
+2,23,200,1659,,0.0
+1,26,200,519,,0.0
+2,27,200,551,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,29,200,843,,0.0
+2,30,200,718,,0.0
+2,31,200,628,,0.0
+2,32,200,547,,0.0
+2,33,200,528,,0.0
+2,34,200,2152,,0.0
+2,35,200,645,,0.0
+0,18,200,9998,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+0,37,200,1059,,0.0
+3,22,200,9982,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0.004761904832862672 0 0 0 -9 0.7307692256111366 0"""
+1,28,200,10574,,"""0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0"""
+0,38,200,2983,,0.0
+1,40,200,552,,0.0
+0,41,200,1823,,0.0
+2,36,200,9423,,"""0 0 0 0 0 0 0 0 0.104761906145584 0 0 0 0 0 0 0 0 0 0 0"""
+3,39,200,10624,,"""0 0 0 0 0.04838709749521748 0 0 0 0 0 0 0 0 0 0 0.02750000013038516 0 0 0 0"""

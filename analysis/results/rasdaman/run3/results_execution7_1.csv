@@ -1,0 +1,43 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+8,5,200,2268,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+9,4,200,2296,,0.0
+10,10,200,2446,,0.0
+5,8,200,2624,,0.0
+1,2,200,2663,,0.0
+11,11,200,2968,,0.0
+3,0,200,3331,,0.0
+9,13,200,1816,,0.0
+1,16,200,1921,,0.0
+11,17,200,2130,,0.0
+9,19,200,1360,,"[false,false,false]"
+5,15,200,2900,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,18,200,2714,,0.0
+0,1,200,6222,,0.0
+7,6,200,6499,,0.0
+11,21,200,1814,,0.0
+1,20,200,2344,,0.0
+5,23,200,1849,,"[false,false,false,false,false,false,false,false,false,false]"
+9,22,200,1969,,0.0
+3,24,200,1736,,0.9538461565971375
+10,14,200,5414,,0.0
+0,25,200,2060,,0.0
+1,28,200,1761,,"[false,false,false,false,false,false,false,false]"
+9,30,200,1653,,0.0
+5,29,200,1852,,0.0
+11,27,200,2382,,0.0
+0,33,200,1383,,0.0
+3,31,200,2271,,"[false,false,false,false,false,false,false,false,false]"
+7,26,200,4290,,0.0
+1,34,200,2281,,0.0
+5,36,200,2128,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+10,32,200,4396,,0.0
+1,41,200,1657,,0.0
+11,37,200,4865,,0.0
+0,38,200,4721,,0.0
+2,3,200,24028,,"""0 0 0 0 0 0 0 0 0.09473684351695211 0 0 -9 0 0 0 0 0 0 0 0"""
+4,7,200,24053,,"""0 0 0 0 0 0 0 0.01666666691501935 0 0 0 0 0 0.02142857174788202 0.1363636390729384 0 0 0 0 0"""
+8,12,200,23332,,"""0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0 0 0 0"""
+6,9,200,25854,,"""0 0 0 0 0 0 0 0 0 0 0.04516129123587762 0 0 0 0 0 0 0 0 0"""
+9,35,200,17614,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+3,39,200,17159,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9"""
+7,40,200,16704,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0333333338300387"""

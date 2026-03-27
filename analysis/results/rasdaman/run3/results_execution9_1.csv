@@ -1,0 +1,59 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+10,4,500,502,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(80776 28 13,80776 28 13) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+14,13,200,6167,,0.0
+7,7,200,6282,,0.0
+6,2,200,6397,,"[false,false,false,false]"
+1,8,200,6522,,"[false,false,false]"
+17,18,200,6606,,0.0
+9,0,200,6798,,0.0
+12,9,200,7078,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+11,5,200,7175,,0.0
+19,19,200,7172,,0.0
+13,12,200,7321,,0.0
+4,1,200,7366,,0.0
+3,16,200,7548,,0.0
+18,17,200,7570,,0.0
+10,20,200,7558,,0.0
+7,22,200,2942,,0.0
+1,24,200,2754,,0.0
+13,30,200,2423,,"[false,false,false,false]"
+14,21,200,3633,,0.0
+11,28,200,3206,,0.0
+12,27,200,3312,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,32,200,2935,,0.0
+8,11,200,10496,,0.0
+4,31,200,3223,,0.0
+16,15,200,11442,,0.0
+7,35,200,2569,,0.0
+1,36,200,3157,,0.0
+13,37,200,2809,,0.0
+11,39,200,2673,,"[false,false,false]"
+19,29,200,6436,,0.0
+14,38,200,4156,,0.0
+10,34,200,6157,,0.0
+6,23,200,8503,,0.0
+12,40,200,5040,,0.0
+9,26,200,8985,,0.0
+18,33,500,11234,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(22005 29 13,22005 29 13) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+17,25,200,24917,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+0,3,200,31577,,"""0 0 0 0 0 0 0 -9 0 0 0 0 0 -9 0 0 0.1000000014901161 0 0 0"""
+2,10,200,31633,,"""0 0 0 0 -9 0 0 0 0 0 0 0 0 0 0 0 0.03571428624647004 -9 0 0"""
+5,6,200,31759,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06363636458461935 0 0 0 0"""
+15,14,200,32177,,"""0.02352941211532144 0 0 -9 0 0 0 -9 0 0 0 0 0.04285714349576405 0 0 0 0.00588235302883036 0 0 0"""
+3,41,200,22124,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

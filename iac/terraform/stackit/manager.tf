@@ -32,7 +32,7 @@ resource "stackit_public_ip" "manager" {
 
 resource "stackit_volume" "manager" {
   project_id        = var.project_id
-  name              = "manager"
+  name              = "manager-tim"
   availability_zone = "eu01-2"
   source = {
     type                  = "image"
@@ -45,7 +45,7 @@ resource "stackit_volume" "manager" {
 
 resource "stackit_server" "manager" {
   project_id        = var.project_id
-  name              = "manager"
+  name              = "manager-tim"
   availability_zone = "eu01-2"
   machine_type      = "g2i.2"
   boot_volume = {

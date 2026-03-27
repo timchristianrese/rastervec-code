@@ -46,7 +46,7 @@ resource "stackit_public_ip" "odc-sut" {
 
 resource "stackit_volume" "odc-sut" {
   project_id        = var.project_id
-  name              = "odc-sut"
+  name              = "odc-sut-tim"
   availability_zone = "eu01-2"
   source = {
     type                  = "image"
@@ -59,7 +59,7 @@ resource "stackit_volume" "odc-sut" {
 
 resource "stackit_server" "odc-sut" {
   project_id        = var.project_id
-  name              = "odc-sut"
+  name              = "odc-sut-tim"
   availability_zone = "eu01-2"
   machine_type      = "g2i.4"
   boot_volume = {
@@ -87,7 +87,7 @@ resource "stackit_public_ip" "odc-client" {
 
 resource "stackit_volume" "odc-client" {
   project_id        = var.project_id
-  name              = "odc-client"
+  name              = "odc-client-tim"
   availability_zone = "eu01-2"
   source = {
     type                  = "image"
@@ -100,7 +100,7 @@ resource "stackit_volume" "odc-client" {
 
 resource "stackit_server" "odc-client" {
   project_id        = var.project_id
-  name              = "odc-client"
+  name              = "odc-client-tim"
   availability_zone = "eu01-2"
   machine_type      = "g2i.4"
   boot_volume = {

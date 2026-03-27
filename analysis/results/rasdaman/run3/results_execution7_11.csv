@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+1,3,200,1241,,0.0
+4,5,200,1346,,"[false,false,false,false,false,false,false]"
+10,9,200,1557,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,4,200,1581,,0.0
+0,2,200,1588,,0.0
+7,8,200,1764,,0.0
+2,6,200,1816,,0.0
+6,1,200,1987,,0.0
+8,10,200,1993,,0.0
+9,7,200,2082,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+4,13,200,1096,,0.0
+0,16,200,1672,,0.0
+3,15,200,1716,,0.0
+7,17,200,1588,,0.0
+11,11,200,3692,,0.0
+9,21,200,1652,,0.0
+8,20,200,1873,,-9.0
+2,18,200,2434,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,23,200,1689,,0.0
+5,0,200,5054,,0.0
+2,29,200,1236,,0.0
+11,26,200,1910,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,30,200,1082,,0.4000000059604645
+1,12,200,5109,,0.0
+5,31,200,1998,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,32,200,1618,,0.0
+0,34,200,1492,,"[false,false]"
+1,35,200,1336,,0.0
+9,27,200,4129,,0.0
+7,25,200,5464,,NaN
+2,37,200,1985,,0.0
+9,40,200,1503,,0.0
+5,36,500,2744,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(64731 23 17,64731 23 17) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+11,33,200,4334,,0.0
+7,41,200,4326,,0.0
+0,38,200,6281,,0.0
+3,24,200,22230,,"""0 0 0 0 0 0 0.02142857174788202 0 0 0 0 0 0 0 0 0 -9 -9 0 0"""
+10,14,200,24208,,"""0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0"""
+8,28,200,22382,,"""0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0.1000000014901161 0 0 0"""
+6,19,200,24370,,"""0 0 -9 0 0.009090909226374193 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+4,22,200,24344,,"""0 0 0 0 0 0 0 0 0 0 0 0 0.1166666684051355 0 0 0.04761904832862672 0 0 0 0"""
+1,39,200,20632,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

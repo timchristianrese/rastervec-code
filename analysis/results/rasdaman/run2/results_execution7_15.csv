@@ -1,0 +1,59 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+11,11,200,888,,0.0
+10,10,200,1554,,0.0
+4,5,200,1596,,0.0
+3,3,200,1684,,0.0
+4,14,500,119,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(32978 33 16,32978 33 16) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+5,7,200,1716,,0.0
+6,2,200,1792,,0.0
+9,9,200,2049,,0.0
+7,4,200,2222,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+10,13,200,1542,,0.0
+3,15,200,1502,,0.0
+5,17,200,1535,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,1,200,3773,,0.0
+7,20,200,1551,,"[false,false,false,false,false]"
+0,0,200,3788,,0.0
+9,19,200,2765,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,22,200,1793,,0.0
+8,8,200,5149,,0.0
+0,26,200,1596,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,24,200,1926,,0.0
+4,16,200,4301,,0.0
+6,18,200,4415,,NaN
+9,27,200,1873,,0.0
+8,29,200,1740,,0.0
+0,30,200,1802,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,31,200,1563,,0.0
+4,32,200,2017,,0.0
+7,25,200,4398,,0.0
+1,37,200,1288,,0.0
+9,34,200,1911,,0.0
+7,39,200,1629,,0.0
+4,38,200,1890,,0.0
+2,6,500,10109,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(42868 27 12,42868 27 12) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+1,40,200,1732,,0.0
+8,35,200,3525,,0.0
+9,41,200,2030,,0.0
+11,12,200,16926,,"""0 0 0 0 0 0 0 0 -9 0 0 -9 0 0 0.3428571447730064 0 0 0 0 0"""
+10,21,200,18263,,"""0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 -9 0"""
+6,33,200,15207,,"""0 0 0 0 0 0 0 0 0 0.9538461565971375 0 0 0 0 0 0 0 0 0 0.09473684351695211"""
+5,23,200,18256,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+0,36,200,14439,,"""0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0"""
+3,28,200,17461,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

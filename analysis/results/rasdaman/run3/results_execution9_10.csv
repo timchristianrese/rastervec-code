@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+3,8,200,1765,,0.0
+4,1,200,2231,,"[false,false,false,false,false,false]"
+18,17,200,2221,,0.0
+13,19,200,2295,,"[false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,4,200,2722,,0.0
+6,6,200,2771,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+10,2,200,2800,,-9.0
+17,11,200,2810,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+8,12,200,3334,,0.0
+16,14,200,3518,,0.0
+11,10,200,3566,,0.0
+14,16,200,3847,,0.0
+3,20,200,2939,,0.0
+10,26,200,2299,,0.0
+18,22,200,2866,,0.0
+11,30,200,2117,,0.0
+17,27,200,3223,,0.0
+12,15,200,6102,,0.0
+8,28,200,2950,,0.0
+2,24,200,3565,,0.4000000059604645
+14,31,200,3242,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,5,200,7170,,0.0
+7,9,200,7574,,0.0
+3,32,200,3297,,0.0
+10,33,200,3088,,"[false,false,false,false,false,false,false,false,false,false]"
+18,34,200,3223,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+17,36,200,2456,,0.0
+4,21,200,6635,,0.0
+13,23,200,6645,,0.0
+8,38,200,2931,,0.0
+2,39,200,3313,,0.0
+14,40,200,2529,,0.0
+1,41,200,2704,,0.0
+11,35,200,5045,,0.0
+12,37,200,4816,,0.0
+16,29,500,9694,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(83108 33 19,83108 33 19) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+15,13,200,20427,,"""0 0 0 0 0 0 0 0 0.03571428624647004 0 0 0 0 0 0 0 0 0 0 0"""
+9,0,200,21447,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+19,18,200,21669,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+5,7,200,21695,,"""0 0 0 0 0 0 0.01052631594632801 0 -9 0 0 0 0 0 0 0 0 0 0 0"""
+0,3,200,21706,,"""0 0 0 0.01176470605766072 -9 0.02352941211532144 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+6,25,200,19616,,"""0 0 0 0 0 0 0 0 0 0 0.02352941211532144 0 0 0 0 0 0.03000000044703484 0 0 0"""

@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+7,13,200,1810,,0.0
+0,4,200,2014,,0.0
+14,12,200,2300,,"[false,false,false,false,false,false,false,false,false,false]"
+1,5,200,2319,,0.0
+10,1,200,2411,,0.0
+2,6,200,2460,,0.0
+12,7,200,2474,,"[false,false,false,false,false,false,false,false,false]"
+4,2,200,2527,,0.0
+8,18,200,2809,,0.0
+5,14,200,2893,,0.0
+15,17,200,3093,,0.0
+18,16,200,3363,,0.0
+0,21,200,2779,,0.0
+1,23,200,2998,,"[false,false,false,false,false,false,false,false,false,false]"
+12,26,200,2970,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+4,27,200,2958,,0.0
+2,25,200,3104,,0.0
+7,20,200,3768,,0.0
+15,30,200,2735,,"[false,false,false,false,false,false,false,false]"
+8,28,200,3068,,0.0
+5,29,200,3232,,0.4000000059604645
+10,24,200,3767,,0.10476190614558402
+16,10,200,6353,,0.0
+18,31,200,3129,,0.0
+19,19,200,6916,,0.0
+3,8,200,7185,,0.0
+11,3,200,7313,,0.0
+4,35,200,2504,,"[false,false,false,false,false,false,false,false]"
+0,32,200,3327,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,33,200,2825,,0.0
+15,38,200,2710,,0.0
+2,36,200,3511,,0.0
+6,15,200,9426,,0.0
+5,40,500,4306,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(72707 33 18,72707 33 18) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+10,41,200,4476,,0.0
+13,9,200,10981,,0.0
+17,11,200,23906,,"""0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0"""
+9,0,200,25015,,"""-9 0 0 0 0.408000009059906 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+14,22,200,22919,,"""0 0 0 0 0 0.2166666686534882 0 -9 0 0 0 0 0 0 -9 0 0 0 0 0"""
+12,34,200,20541,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+8,39,200,20197,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0.005263157973164006"""
+7,37,200,20591,,"""0 0 0 0 -9 0 0 0 0 0.1200000017881393 0 0 0 0 0 0 0 0 0 0"""

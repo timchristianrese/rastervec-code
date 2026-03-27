@@ -1,0 +1,51 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+0,1,200,1169,,0.0
+11,11,200,1302,,0.0
+10,6,200,1405,,0.0
+6,4,200,1493,,0.0
+3,9,200,1694,,0.0
+2,0,200,1849,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,2,200,1860,,0.0
+4,10,200,1954,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+5,8,200,2163,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,12,200,1478,,0.0
+10,14,200,1515,,0.0
+11,13,200,2059,,"[false,false,false,false,false,false,false,false]"
+6,15,200,2088,,0.0
+3,16,200,2041,,0.0
+5,20,200,2116,,0.0
+10,22,200,1495,,"[false,false,false,false,false]"
+11,23,200,1701,,"[false,false,false,false]"
+5,26,200,1467,,"[false,false,false,false,false,false,false]"
+4,19,200,4140,,0.0
+1,18,200,4339,,0.0
+7,5,200,6413,,0.0
+10,27,200,2396,,0.0
+2,17,200,5097,,0.0
+11,28,200,2451,,0.0
+6,24,200,4540,,0.0
+2,34,200,1205,,0.0
+5,29,200,2492,,0.0
+11,35,200,1561,,0.0
+6,36,200,1145,,0.0
+10,33,200,2805,,0.0
+5,38,200,1580,,0.9000000158945719
+4,30,200,3947,,0.0
+10,41,200,1470,,0.0
+11,39,200,2136,,0.0
+6,40,200,3025,,0.0
+8,3,500,13507,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(42868 27 12,42868 27 12) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+9,7,200,19565,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0"""
+3,25,200,17734,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9"""
+0,21,200,19229,,"""0 0 0 0 0 0 0 0 0 0 0 0.1450000017881393 0 0 0 0 0 0 0 0"""
+1,31,200,16153,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+2,37,200,14885,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0"""
+7,32,200,16814,,"""-9 0 0 0 -9 0 -9 0 0.0333333338300387 0 0 0 0.06363636458461935 0 0 0 0 0 0 0"""

@@ -1,0 +1,67 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+3,2,200,496,,0.0
+0,1,200,617,,0.0
+3,4,200,705,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,0,200,1713,,0.0
+2,3,500,1878,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(49766 33 19,49766 33 19) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+2,8,200,3003,,0.0
+1,7,200,6017,,0.0
+2,9,200,3033,,0.0
+1,10,200,564,,"[false,false,false,false,false,false]"
+2,11,200,708,,0.0
+1,12,200,645,,0.0
+2,13,200,488,,0.0
+2,15,200,491,,"[false,false,false,false,false,false]"
+1,14,200,722,,0.0
+1,17,200,746,,0.0
+2,16,200,2025,,0.0
+2,19,200,631,,0.0
+2,20,200,453,,0.0
+2,21,200,1471,,0.0
+2,22,200,1451,,NaN
+0,5,200,15184,,"""0 0 0 0 0.02000000029802322 0 0 0 0 0.7307692256111366 0 0 0 0 0 0 0 0 0 0"""
+3,6,200,14927,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""
+2,23,200,608,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+2,26,200,574,,0.0
+3,25,200,700,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,24,200,1265,,0.0
+2,27,200,562,,0.0
+0,29,200,1755,,0.0
+0,31,200,1690,,0.0
+3,28,500,4225,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(28401 30 16,28401 30 16) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+0,32,200,689,,0.0
+3,33,200,496,,0.0
+1,18,200,11948,,"""0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0"""
+0,34,200,1280,,0.0
+1,36,200,1992,,0.0
+0,37,200,2050,,0.0
+1,38,200,2277,,0.0
+0,39,200,2139,,0.0
+2,30,500,9539,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(37901 28 11,37901 28 11) ))  FROM DWD_5min_4326 AS c'. Reason: GRPC Exception, status code: UNAVAILABLE, description: Network closed for unknown reason</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+0,41,200,650,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+1,40,200,714,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+3,35,200,13324,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"""

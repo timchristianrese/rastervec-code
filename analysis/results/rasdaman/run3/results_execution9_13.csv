@@ -1,0 +1,67 @@
+worker_id,job_id,status_code,latency_ms,error,response_body
+9,18,200,1643,,"[false,false,false,false,false]"
+10,19,200,1855,,"[false,false,false,false,false,false,false]"
+13,8,200,1997,,0.0
+14,9,200,2053,,0.0
+6,16,200,2148,,0.0
+16,2,200,2249,,0.0
+17,3,200,2337,,0.0
+12,7,200,2621,,0.0
+3,13,200,2686,,0.0
+19,6,200,2703,,0.0
+4,14,200,3021,,0.0
+11,4,200,3045,,0.30000000447034836
+5,10,200,3111,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+15,1,200,3581,,0.0
+9,20,500,2391,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(30019 23 22,30019 23 22) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+10,21,200,2559,,0.0
+14,23,200,2542,,"[false,false,false,false,false,false]"
+16,25,200,2385,,0.0
+6,24,200,2781,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+12,27,200,2472,,0.0
+13,22,200,3216,,"[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]"
+0,0,200,5496,,0.0
+19,29,200,3095,,0.0
+7,15,200,5916,,0.0
+15,33,200,2581,,0.0
+1,11,200,6199,,0.0
+8,17,200,6651,,0.0
+18,5,500,6756,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(42214 31 14,42214 31 14) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+10,35,200,2438,,"[false,false,false,false,false]"
+14,36,200,2399,,0.0
+16,37,200,2727,,0.0
+0,41,200,1962,,0.0
+2,12,200,7611,,0.0
+6,38,200,2684,,0.0
+13,40,200,2561,,0.0
+17,26,200,5833,,0.0
+11,31,200,5615,,0.0
+5,32,500,7131,,"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>
+<ows:ExceptionReport version=""2.0.1""
+    xsi:schemaLocation=""http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsExceptionReport.xsd""
+    xmlns:ows=""http://www.opengis.net/ows/2.0"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xlink=""http://www.w3.org/1999/xlink"">
+    <ows:Exception exceptionCode=""RasdamanRequestFailed"" >
+        <ows:ExceptionText>Error querying rasdaman with rasql 'Select sdom(clip( c, LINESTRING(56045 44 24,56045 44 24) ))  FROM DWD_5min_4326 AS c'. Reason: std::bad_array_new_length</ows:ExceptionText>
+    </ows:Exception>
+</ows:ExceptionReport>
+"
+4,30,200,13000,,"""0 0 0 0 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0"""
+12,39,200,11451,,"""0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0 0 0 0"""
+3,28,200,14403,,"""0 0 0 0 0 0 0 0 0.009523809665725344 0 0 0 0 0 0 0 0 0 0 0"""
+9,34,200,13099,,"""-9 0 0 0 0 0 0 0 0 0 -9 0 0 0 0 0 0 0 0 0"""
