@@ -34,6 +34,8 @@ ansible-playbook -i inventory.ini analysis.yml -v
 scp -r "ubuntu@188.34.118.166:~/analysis-platform/results/*" ../../analysis/results/run2
 scp -r "ubuntu@188.34.118.166:~/analysis-platform/metrics/*" ../../analysis/metrics/run2
 ```
+From there, you need to move the results to their respective subfolder, so the ODC results to the ODC folder and the RasDaMan to its respective folder. 
+
 ## Infrastructure Deletion
 After experiments have concluded (and you have collected results from the machines), infrastructure can be destroyed to save costs
 ```

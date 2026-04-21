@@ -1,0 +1,2 @@
+# Result Information
+All runs for each SUT are in their respective subfolder. The top level run folders here are for summarized results across both systems, they will be filled when running your analysis scripts
