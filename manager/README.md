@@ -19,4 +19,5 @@ ssh ubuntu@<manager-ip> "go run ."
 The `ansible` folder found in `iac` contains a playbook for collecting results/metrics.
 ```
 cd ../iac/ansible
- ansible-playbook -i inventory.ini analysis.yml -v 
+ansible-playbook -i inventory.ini analysis.yml -v 
+```
